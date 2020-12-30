@@ -1,0 +1,7 @@
+{
+  "responseStatus": "OK",
+  "shippingId":"123e4567-e89b-42d3-a456-556642440000",
+  "customerId":"123e4567-e89b-42d3-a456-556642440001",
+  "orderId":"123e4567-e89b-42d3-a456-556642440002",
+  "methodType":"IN-STORE"
+}
