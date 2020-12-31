@@ -1,7 +1,11 @@
 {
-  "responseStatus": "OK",
-  "shippingId":"123e4567-e89b-42d3-a456-556642440000",
-  "customerId":"123e4567-e89b-42d3-a456-556642440001",
-  "orderId":"123e4567-e89b-42d3-a456-556642440002",
-  "methodType":"IN-STORE"
+  "shippingLabels": [
+    { "shippingId": "123e4567", "customerId": "123e4568","orderId": "123e4569","responseStatus": "OK","methodType":"IN-STORE"},
+    { "shippingId": "123e4577", "customerId": "123e4578","orderId": "123e4579","responseStatus": "OK","methodType":"PICKUP"},
+    { "shippingId": "123e4587", "customerId": "123e4588","orderId": "123e4589","responseStatus": "OK","methodType":"ONLINE"}
+  ],
+  "items": [
+    { "skewId": "223e4587", "itemName": "ITEMA", "itemQuantity": "10","itemCost":"10.55","itemDescription":"This is sample item" },
+    { "skewId": "223e4588", "itemName": "ITEMB", "itemQuantity": "10","itemCost":"20.55","itemDescription":"This is sample item" }
+  ]
 }
